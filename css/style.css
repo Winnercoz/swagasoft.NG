@@ -140,7 +140,11 @@ a:hover {
   color: #1e1e1e;
   font-size: 1.1rem;
 }
-
+.title-p {
+  font-weight: 600;
+  color: #ff0000;
+  font-size: 1.1rem;
+}
 /*--/ Title A /--*/
 
 .title-box {
@@ -697,8 +701,6 @@ margin :10px;
   }
 #hide{
   display: none;
- 
-
 }
 .skill-mf .progress {
   background-color: #cde1f8;
@@ -710,6 +712,10 @@ margin :10px;
 .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #0078ff;
+}
+#skills li {
+  list-style-type: square;
+margin : 8px;
 }
 
 /*======================================
@@ -795,6 +801,7 @@ margin :10px;
 .work-img {
   display: block;
   overflow: hidden;
+  height: 200px;
 }
 
 .work-img img {
