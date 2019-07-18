@@ -802,6 +802,7 @@ margin : 8px;
   display: block;
   overflow: hidden;
   height: 200px;
+  bottom: 
 }
 
 .work-img img {
@@ -979,6 +980,12 @@ margin : 8px;
   border-left: 4px solid #0078ff;
   padding: 18px;
   font-style: italic;
+}
+#btn-view{
+  background-color: #0078ff;
+}
+#btn-view a{
+       color: white;
 }
 
 /*------/ Comments /------*/
